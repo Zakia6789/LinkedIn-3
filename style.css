@@ -1,0 +1,93 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100vh;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+section{
+display: flex;
+flex-direction: column;
+justify-content: center;
+    height: 90vh;
+    width: 30%;
+    border: none;
+    margin: 10px 0;
+    padding: 10px;
+    box-shadow: 2px 1px 7px 0px;
+}
+
+#header1{
+    font-size: 30px;
+    font-weight: 800;
+    color: blue;
+
+}
+#colorfulBG{
+    background-color: #6915e7;
+    color: white;
+    border-radius: 2px;
+}
+#header2{
+   font-size: 30px;
+   font-weight: 800;
+ 
+}
+small{
+    font-weight: bold;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.personalInfo{
+    height:5vh;
+    width: 90%;
+    border: none;
+   border-radius: 5px;
+   margin: 10px 0px;
+   padding: 10px;
+   background-color: gainsboro;
+   
+}
+
+.personalInfo:hover{
+    background-color: rgb(196, 186, 186);
+    transition: 1s;
+}
+
+.blueWord{
+    font-size: 17px;
+    font-weight: 800;
+    color: #6915e7;
+}
+a{
+    text-decoration: none;
+}
+
+#signinBtn{
+    display: block;
+    height: 6vh;
+    width: 400px;
+    margin: 10px 0px;
+    padding: 10px;
+    border: none;
+    border-radius: 50px;
+    background-color: #6915e7;
+    color: white;
+    font-size: 17px;
+    font-weight: 800;
+    font-family: 'Courier New', Courier, monospace;
+}  
+
+#signinBtn:hover{
+    background-color:rgb(76, 222, 76);
+    transition: 1s;
+}
